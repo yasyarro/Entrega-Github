@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<title>SBA - Small Business Administration</title>
 </head>
-<body class="body">
-	<nav class="navbar navbar-expand-sm bg-light">
+	<body style="background: #ddb7ed">
+			<nav class="navbar navbar-expand-sm bg-light">
 		  <div class="container-fluid">
 		    <ul class="nav navbar-nav">
 		      <li class="active"><a href="index.html">Home</a></li>
@@ -23,29 +23,41 @@
 		    </ul>
 		  </div>
 		</nav>
-	<div class="container">
-		<h2 class="titulo__1">SBA- Small Business Administration </h2>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8">
-				<h3 class="titulo__2"> Bienvenidos a SBA!</h3>
-			</div>
-			<div class="col-lg-8">
-				<h4 class="parrafo__1">En esta pagina vas a poder conocernos mejor y vas a aprender todo sobre nosotros. Ademas, podes contactarnos directamente para que podamos asesorarte.
-				</h4>
-			</div>
-			<div class="col-lg-2">	
-				<div class="imagen__logo"><img src="logo sba.jpg" alt="logo SBA" width="280" height="240"/>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<h2 class="titulo__2">Contacto</h2>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<form>
+						<label for="Nombre">Nombre:</label>
+						<input type="text" name="Nombre"><br>
+						<label for="Apellido">Apellido:</label>
+						<input type="text" name="Apellido"><br>
+						<label for="Email">Email:</label>
+						<input type="Email" name="Email" placeholder="........@xxxxxx.com"><br> <br>
+						<legend>Rubro de su empresa</legend><select name="Rubro de su empresa">
+						<option value="Bienes">Bienes</option>
+						<option value="Servicios">Servicios</option>
+						</select><br>
+						<div>Deseo recibir informacion financiera y economica
+						<input type="checkbox" name="Acepta" value="1"></div><br>
+						<p><strong>Dejanos tu consulta</strong></p>
+						<textarea name="Comentarios"></textarea><br>
+						<input type="Submit" value="Enviar formulario">
+						<input type="Reset" value="Limpiar formulario"> 			
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
 		<div class="footer__1"><img src="instagram.png" width="25px" height="25px" alt="logoIg"/>  https://instagram.com/sba_argentina?igshid=lf9410gvvl2d </div>
 		<div class="footer__2"> <img src="envelope.png" width="25px" height="25px" alt="logoMail"/>  yasmin@argentinasba.com</div>
 		<div class="footer__3"> <img src="whatsapp.png" width="25px" height="25px" alt="logoWp"/>  1167652600 </div>
 	</div>	
 	</body>
 </html>
-
