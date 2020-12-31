@@ -3,45 +3,52 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/styleindex.css">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilo.css">
 	<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@100&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<title>SBA - Small Business Administration</title>
 </head>
-<body class="body">
-	<nav class="navbar navbar-expand-sm bg-light">
-		  <div class="container-fluid">
-		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="index.html">Home</a></li>
-		      <li><a href="que.html">¿Qué es SBA?</a></li>
-		      <li><a href="servicios.html">Servicios</a></li>
-		      <li><a href="clientes.html">Clientes</a></li>
-		      <li><a href="contacto.html">Contacto</a></li>
-		    </ul>
-		  </div>
-		</nav>
+<body class="body__index">
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Inicio</a>
+  <a href="que.html">¿Qué es SBA?</a>
+  <a href="servicios.html">Servicios</a>
+  <a href="clientes.html">Clientes</a>
+  <a href="contacto.html">Contacto</a>	
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</div>
 	<div class="container">
-		<h2 class="titulo__1">SBA- Small Business Administration </h2>
+		<h2 class="titulo__SBA">SBA- Small Business Administration </h2>
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8">
-				<h3 class="titulo__2"> Bienvenidos a SBA!</h3>
+			<div class="col-lg-12">
+				<h3 class="Subtitulo__index"> Bienvenidos a SBA!</h3>
 			</div>
-			<div class="col-lg-8">
-				<h4 class="parrafo__1">En esta pagina vas a poder conocernos mejor y vas a aprender todo sobre nosotros. Ademas, podes contactarnos directamente para que podamos asesorarte.
+			<div class="col-lg-8 container__index">
+				<h4 class="p1">En esta página vas a poder conocernos mejor y vas a aprender todo sobre nosotros. Además, podes contactarnos directamente para que te asesoremos.
 				</h4>
 			</div>
-			<div class="col-lg-2">	
-				<div class="imagen__logo"><img src="logo sba.jpg" alt="logo SBA" width="280" height="240"/>
-				</div>
+			<div class="col-lg-4 container__index">	
+				<div class="imagen1"><img src="logo sba.jpg" width="280px" height="240px" alt="logo SBA"/>
+			</div>
 			</div>
 		</div>
 	</div>
-	<div class="footer">
+<div class="footer">
 		<div class="footer__1"><img src="instagram.png" width="25px" height="25px" alt="logoIg"/>  https://instagram.com/sba_argentina?igshid=lf9410gvvl2d </div>
 		<div class="footer__2"> <img src="envelope.png" width="25px" height="25px" alt="logoMail"/>  yasmin@argentinasba.com</div>
 		<div class="footer__3"> <img src="whatsapp.png" width="25px" height="25px" alt="logoWp"/>  1167652600 </div>
