@@ -1,0 +1,199 @@
+.body {
+  background-color: #ddb7ed; }
+
+ul {
+  margin-left: 700px; }
+  ul li {
+    background-color: #845896;
+    margin-right: 1px;
+    border: solid white;
+    border-width: 2px;
+    padding: 10px; }
+    ul li a {
+      color: white;
+      font-family: "Julius Sans One", sans-serif;
+      font-size: 15px;
+      font-weight: bold; }
+
+.titulo__1 {
+  margin-top: 50px;
+  color: #5E147D;
+  background-image: linear-gradient(to right, white, #5E147D);
+  font-weight: bold;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Julius Sans One", sans-serif; }
+
+.titulo__2 {
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Julius Sans One", sans-serif; }
+
+.parrafo__1 {
+  color: #5E147D;
+  font-size: 20px;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold; }
+
+.imagen__logo {
+  border: solid white;
+  background: white;
+  border-radius: 300px;
+  margin-left: 0px;
+  overflow: hidden;
+  width: 10px;
+  animation-name: foto;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 0s; }
+
+@keyframes foto {
+  0% {
+    width: 10px; }
+  100% {
+    width: 280px; } }
+
+@media (max-width: 576px) {
+  .imagen__logo {
+    animation: none;
+    width: 300px; } }
+
+.slide {
+  margin-left: 200px;
+  margin-top: 90px; }
+
+@media (max-width: 576px) {
+  .slide {
+    width: 500px;
+    margin-left: 80px; } }
+
+@media (max-width: 576px) {
+  .footer {
+    width: 800px; } }
+
+.footer {
+  display: flex;
+  justify-content: space-around; }
+
+.footer__1 {
+  color: #5E147D;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 100px 0px; }
+
+.footer__2 {
+  color: #5E147D;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 100px 0px; }
+
+.footer__3 {
+  color: #5E147D;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 100px 0px; }
+
+.Titulo__Que, .Caja__Titulo__Ventajas {
+  border-radius: 100px;
+  background-color: white;
+  margin: 80px 550px 100px 450px;
+  padding: 0px;
+  width: 350px;
+  border: solid #5E147D;
+  border-width: 5px; }
+
+.Titulo__Que--2, .Titulo__Ventajas {
+  font-family: "Julius Sans One", sans-serif;
+  color: #5E147D;
+  font-weight: bold;
+  margin: 50px 50px 50px 50px;
+  padding: 0px;
+  border-width: 8px; }
+
+.Parrafo__Que, .Caja__Ventajas {
+  color: #5E147D;
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  margin: 50px 50px 50px 50px;
+  padding: 10px;
+  border: solid white;
+  border-width: 5px; }
+
+.Caja__ParrafoQue {
+  background-color: #5E147D;
+  margin: 50px 50px 50px 50px;
+  padding: 15px;
+  border: solid white;
+  border-width: 5px; }
+
+.Caja__Ordenamos {
+  background-color: white;
+  margin: 0px 50px 80px 50px;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  border: solid #5E147D;
+  border-width: 5px;
+  padding: 20px; }
+
+.Caja__Organizamos {
+  background-color: white;
+  margin: 0px 50px 80px 19px;
+  width: 280px;
+  height: 200px;
+  overflow: hidden;
+  border: solid #5E147D;
+  border-width: 5px;
+  padding: 20px; }
+
+.Caja__Administramos {
+  background-color: white;
+  margin: 0px 50px 80px 10px;
+  width: 280px;
+  height: 220px;
+  overflow: hidden;
+  border: solid #5E147D;
+  border-width: 5px;
+  padding: 20px; }
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: center; }
+
+.p1 {
+  color: #5E147D;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold; }
+
+.Caja__Titulo__Ventajas {
+  width: 500px; }
+
+.Titulo__Ventajas {
+  width: 400px; }
+
+.Caja__Ventajas {
+  width: 1000px; }
+
+.p2 {
+  color: #5E147D;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold; }
+
+form {
+  color: #5E147D;
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold; }
